@@ -13,7 +13,7 @@ import tasksRoutes from './routes/tasks.router.js';
 const app = express();
 app.use(
   cors({
-    origin: 'https://ronald-oss.github.io/',
+    origin: 'https://ronald-oss.github.io',
     credentials: true,
   })
 );
